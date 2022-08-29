@@ -17,22 +17,19 @@
 
     display: flex;
     flex-direction: column;
-   
+
     background: url('./assets/home.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.main {
-    flex: 1 0 auto; 
-}
+/* Header  */
 
 .step_1 {
-    /* display: block; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 
     font-size: 28px;
 }
@@ -40,7 +37,7 @@
 .step_1__title {
     padding: 50px;
     color: rgb(66, 48, 48);
-    text-shadow: 2px 2px 8px #913131; 
+    text-shadow: 2px 2px 8px #913131;
 }
 
 .btn__start-game {
@@ -54,16 +51,21 @@
 
 .btn__start-game:hover {
     font-size: 24px;
-    border: 3px solid rgb(195, 89, 89);  
+    border: 3px solid rgb(195, 89, 89);
     cursor: pointer;
+}
+
+/* Main  */
+
+.main {
+    flex: 1 0 auto;
 }
 
 .step_2__title,
 .step_3__title {
-    /* font-size: 28px; */
     margin: 50px;
     color: rgb(68, 65, 65);
-    text-shadow: 2px 2px 6px #f3ecec; 
+    text-shadow: 2px 2px 6px #f3ecec;
 }
 
 .cards {
@@ -89,9 +91,8 @@
 
 .btn-card:hover,
 .level:hover,
-.mix-cards:hover,
 .mythic-card-bg:hover {
-    border: 2px solid rgb(195, 89, 89); 
+    border: 2px solid rgb(195, 89, 89);
     opacity: 0.8;
     cursor: pointer;
 }
@@ -100,39 +101,31 @@
 .level:active,
 .mix-cards:active,
 .mythic-card-bg:active {
-    border: 3px solid rgb(195, 89, 89); 
+    border: 3px solid rgb(195, 89, 89);
 }
 
 .active {
-    border: 4px solid rgb(195, 89, 89); 
+    border: 4px solid rgb(195, 89, 89);
 }
 
 .mix-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-   margin:100px;
-    /* text-align: center; */
+    margin: 170px;
 
-    padding: 15px 25px;
-    font-size: 22px;
+    padding: 20px 30px;
+    font-size: 28px;
     border: 2px solid rgb(195, 89, 89);
     border-radius: 10px;
     background-color: rgb(151, 162, 162);
     opacity: 0.7;
-
-    /* border: 3px solid rgb(152, 55, 113);
-    border-radius: 10px;
-    font-size: 26px;
-    color: rgb(39, 42, 42);
-    background-color: rgb(152, 55, 113); */
 }
 
 .mix-cards:hover {
-    /* font-size: 28px; */
-    font-size: 24px;
-    border: 3px solid rgb(195, 89, 89);  
+    font-size: 30px;
+    border: 3px solid rgb(195, 89, 89);
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -145,7 +138,7 @@
 }
 
 .stages {
-    margin-bottom: 40px;
+    margin: 30px;
 }
 
 .stage {
@@ -171,27 +164,33 @@
     padding: 10px;
     border: none;
     border-radius: 25px;
-    
+
     font-size: 26px;
     text-align: center;
     color: rgb(16, 32, 48);
 }
 
 .green {
-    background-color: rgb(78, 140, 78); 
+    background-color: rgb(78, 140, 78);
 }
 
 .red {
-    background-color: rgb(195, 89, 89); 
+    background-color: rgb(195, 89, 89);
 }
 
 .blue {
-    background-color: rgb(63, 63, 212); 
+    background-color: rgb(63, 63, 212);
+}
+
+.play {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .mythic-card-bg {
     margin-bottom: 40px;
-    /* border: none; */
     border-radius: 10px;
 }
 
@@ -216,6 +215,11 @@
 
 .footer__btn:hover {
     font-size: 18px;
-    border: 3px solid rgb(195, 89, 89);  
+    border: 3px solid rgb(195, 89, 89);
     cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
