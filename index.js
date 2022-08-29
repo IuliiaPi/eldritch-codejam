@@ -118,37 +118,37 @@ const brownCards = [
     },
     {
         id: 'brown8',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown8.png',
         difficulty: 'hard',
         color:'brown'
     },
     {
         id: 'brown9',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown9.png',
         difficulty: 'hard',
         color:'brown'
     },
     {
         id: 'brown10',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown10.png',
         difficulty: 'hard',
         color:'brown'
     },
     {
         id: 'brown11',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown11.png',
         difficulty: 'easy',
         color:'brown'
     },
     {
         id: 'brown12',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown12.png',
         difficulty: 'easy',
         color:'brown'
     },
     {
         id: 'brown13',
-        cardFace: 'assets/MythicCards/brown/brown7.png',
+        cardFace: 'assets/MythicCards/brown/brown13.png',
         difficulty: 'easy',
         color:'brown'
     },
