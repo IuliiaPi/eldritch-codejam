@@ -75,6 +75,10 @@
     gap: 20px;
 }
 
+.btn-card {
+    border-radius: 20px;
+}
+
 .levels {
     display: flex;
     flex-direction: column;
@@ -90,8 +94,7 @@
 }
 
 .btn-card:hover,
-.level:hover,
-.mythic-card-bg:hover {
+.level:hover {
     border: 2px solid rgb(195, 89, 89);
     opacity: 0.8;
     cursor: pointer;
@@ -99,8 +102,7 @@
 
 .btn-card:active,
 .level:active,
-.mix-cards:active,
-.mythic-card-bg:active {
+.mix-cards:active {
     border: 3px solid rgb(195, 89, 89);
 }
 
@@ -191,7 +193,25 @@
 
 .mythic-card-bg {
     margin-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 25px;
+}
+
+.img {
+    border-radius: 15px; 
+}
+
+.mythic-card-bg:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 3px rgba(133, 80, 171, 0.9);
+    transition: all 0.3s;
+}
+
+.mythic-card-bg:active {
+    /* border: 3px solid rgba(133, 80, 171, 0.9); */
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(133, 80, 171, 0.9);
+    -moz-box-shadow: 0px 0px 10px 6px rgba(133, 80, 171, 0.9);
+    box-shadow: 0px 0px 10px 6px rgba(133, 80, 171, 0.9);
+    transition: all 0.5s;
 }
 
 /* Footer  */
